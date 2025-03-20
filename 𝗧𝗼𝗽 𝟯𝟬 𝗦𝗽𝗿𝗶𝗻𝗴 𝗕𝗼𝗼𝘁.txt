@@ -1,0 +1,33 @@
+𝗧𝗼𝗽 𝟯𝟬 𝗦𝗽𝗿𝗶𝗻𝗴 𝗕𝗼𝗼𝘁 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 𝗰𝗼𝗺𝗺𝗼𝗻𝗹𝘆 𝗮𝘀𝗸𝗲𝗱 𝗶𝗻 𝗶𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄𝘀 𝗳𝗼𝗿 𝗝𝗮𝘃𝗮 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿𝘀 𝗼𝗿 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝘀 𝘄𝗶𝘁𝗵 𝟮+ 𝘆𝗲𝗮𝗿𝘀 𝗼𝗳 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲:
+1. What is Spring Boot, and how does it differ from the traditional Spring Framework?
+2. What is the purpose of @̲𝚂̲𝚙̲𝚛̲𝚒̲𝚗̲𝚐̲𝙱̲𝚘̲𝚘̲𝚝̲𝙰̲𝚙̲𝚙̲𝚕̲𝚒̲𝚌̲𝚊̲𝚝̲𝚒̲𝚘̲𝚗̲ annotation?
+3. Explain the concept of auto-configuration in Spring Boot.
+4. What is the role of application.properties or application.yml in Spring Boot?
+5. What are the advantages of using Spring Boot over traditional Spring applications?
+6. What is the difference between @̲𝙲̲𝚘̲𝚖̲𝚙̲𝚘̲𝚗̲𝚎̲𝚗̲𝚝̲,̲ ̲@̲𝚂̲𝚎̲𝚛̲𝚟̲𝚒̲𝚌̲𝚎̲,̲ ̲@̲𝚁̲𝚎̲𝚙̲𝚘̲𝚜̲𝚒̲𝚝̲𝚘̲𝚛̲𝚢̲,̲ and @̲𝙲̲𝚘̲𝚗̲𝚝̲𝚛̲𝚘̲𝚕̲𝚕̲𝚎̲𝚛̲ in Spring Boot?
+7. How do you create a Spring Boot RESTful web service?
+8. What is Spring Boot Actuator, and what are its uses?
+9. What is the significance of @̲𝚁̲𝚎̲𝚜̲𝚝̲𝙲̲𝚘̲𝚗̲𝚝̲𝚛̲𝚘̲𝚕̲𝚕̲𝚎̲𝚛̲ and how is it different from @̲𝙲̲𝚘̲𝚗̲𝚝̲𝚛̲𝚘̲𝚕̲𝚕̲𝚎̲𝚛̲?
+10. How do you handle exceptions in Spring Boot applications?
+11. What is Spring Boot DevTools, and what benefits does it provide during development?
+12. How do you use Spring Boot to connect to a database (e.g., MySQL or PostgreSQL)?
+13. Explain the difference between @̲𝙱̲𝚎̲𝚊̲𝚗̲ and @̲𝙲̲𝚘̲𝚖̲𝚙̲𝚘̲𝚗̲𝚎̲𝚗̲𝚝̲ in Spring Boot.
+14. How do you configure logging in Spring Boot?
+15. What are Spring Boot profiles, and how do you manage them for different environments (dev, prod)?
+16. How do you implement security in a Spring Boot application?
+17. What is Spring Boot’s embedded server, and how does it work?
+18. What is the use of @̲𝙴̲𝚗̲𝚊̲𝚋̲𝚕̲𝚎̲𝙰̲𝚞̲𝚝̲𝚘̲𝙲̲𝚘̲𝚗̲𝚏̲𝚒̲𝚐̲𝚞̲𝚛̲𝚊̲𝚝̲𝚒̲𝚘̲𝚗̲ in Spring Boot?
+19. What is the difference between Spring Boot’s application.properties and application.yml files?
+20. What is Spring Boot's support for creating microservices?
+21. How does Spring Boot handle dependency injection?
+22. How do you test a Spring Boot application using @̲𝚂̲𝚙̲𝚛̲𝚒̲𝚗̲𝚐̲𝙱̲𝚘̲𝚘̲𝚝̲𝚃̲𝚎̲𝚜̲𝚝̲?
+23. Explain the difference between @̲𝚁̲𝚎̲𝚚̲𝚞̲𝚎̲𝚜̲𝚝̲𝙼̲𝚊̲𝚙̲𝚙̲𝚒̲𝚗̲𝚐̲,̲ ̲@̲𝙶̲𝚎̲𝚝̲𝙼̲𝚊̲𝚙̲𝚙̲𝚒̲𝚗̲𝚐̲,̲ ̲@̲𝙿̲𝚘̲𝚜̲𝚝̲𝙼̲𝚊̲𝚙̲𝚙̲𝚒̲𝚗̲𝚐̲ and other HTTP method annotations.
+24. What are Spring Boot’s default error handling mechanisms, and how can they be customized?
+25. How do you perform batch processing in Spring Boot?
+26. What is Spring Data JPA, and how is it used in Spring Boot?
+27. How do you manage transaction handling in Spring Boot applications?
+28. What are the different ways to run a Spring Boot application?
+29. Explain the Spring Boot logging mechanism with default loggers (e.g., Logback).
+30. How do you configure Spring Boot to send an email (e.g., using JavaMailSender)?
+
+Follow Vijay R for more information!

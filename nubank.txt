@@ -1,0 +1,86 @@
+Senior Software Engineer
+Colombia, Bogota
+
+About Us
+Nu was born in 2013 with the mission to fight complexity to empower people in their daily lives by reinventing financial services. We are one of the world’s largest digital banking platforms, serving millions of customers across Brazil, Mexico, and Colombia. For more information, visit our institutional page. 
+
+ 
+
+About the role
+Our Engineering team helps Nubank to create and use the technology that provides us to build the best financial products. We strive for state-of-the-art software development practices that currently include a variety of technologies. While we value candidates that are familiar with them, we are also confident that software engineers who are interested in joining Nubank will be able to learn from our team. The software engineer is focused on software development with Clojure as main programming language (We will teach you Clojure)
+
+Horizontally scalable microservices written mostly in Clojure, using Finagle and leveraging upon functional programming techniques and hexagonal architecture
+High throughput jobs and inter-service communication using Kafka
+Continuous Integration and Deployment into AWS
+Storing data in Datomic and DynamoDB
+Monitoring and observability with Prometheus
+Running as much as possible in Kubernetes
+ 
+
+You will be responsible for
+Work with large scale distributed systems, understanding their broad architecture
+Plan and execute on entire features, collaborating with peers while planning the work ahead, and seeing it through
+Collaborate in building microservices and work with continuous delivery and infrastructure as code
+Work with agile software development methodologies
+Write, test, instrument, document, and maintain code
+Pair, and participate in code reviews, to grow and contribute to the growth of others in and around the team
+Collaborate closely with Product, Design, and partner Engineering teams to build new experiences
+Participate in on-call rotations for your team and respond to incidents as necessary
+Work focused on backend applications, and be open to contribute to mobile and frontend development, according to business needs.
+ 
+
+We are looking for a person who has
+Work with large scale distributed systems
+Proven track experience building digital products 
+Ability to quickly understand technical and business requirements, translating them into technical design and implementation
+A problem-solver who is able to communicate effectively across functional teams
+A software engineer who cares deeply about user experience and likes to take part in hiring, onboarding, mentoring, and training
+Proven understanding of object-oriented or functional programming language 
+Notions of distributed systems
+Familiarity with cloud technologies 
+Collaborate with building microservices
+Have worked in teams defining asynchronous integrations using event-driven architectures
+Have practical knowledge of agile software development methodologies
+Work with continuous delivery and infrastructure as code
+ 
+
+Our Benefits
+Chance of earning equity at Nubank
+Extended maternity and paternity leaves 
+Health and life insurance 
+NuCare - Our mental health and wellness assistance program
+Nucleo - Our learning platform of courses
+NuLanguage - Our language learning program
+Vacations of 15 workdays
+Gym partnership
+ 
+
+Our Nu Way of Working
+Our work model is hybrid and has cycles that can be from two to three months according to the business of ​​expertise. For every eight or twelve weeks of remote work, one will be at the office.
+Know more in this blog: Colombia
+
+ 
+
+Diversity & Inclusion
+At Nu, we want to be sure that we're building a more diverse and inclusive workplace that reflects the customers we serve and seek to empower. That's why we hire based on equality. We consider gender, ethnicity, race, religion, sexual orientation, and other identity markers as enriching elements to our company while ensuring neither of them represent a barrier when recruiting fantastic talent.
+
+
+Más información sobre Engineering en Nubank
+
+Conocer más sobre Engineering
+Aplicar para este trabajo
+Aplicar para este trabajo
+PERSONAL DATA
+
+First Name * 
+First Name
+Last Name * 
+Last Name
+Email * 
+Email
+Phone 
+Phone
+Resume/CVNingún archivo seleccionado
+LinkedIn Profile * 
+LinkedIn Profile
+

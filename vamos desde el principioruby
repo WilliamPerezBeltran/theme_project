@@ -1,0 +1,162 @@
+vamos desde el principio
+
+
+
+
+Ruby on Rails: Registration Confirmation
+In this challenge, you are part of a team that is building a chat platform. One requirement is for a REST API service to register users using the Ruby on Rails framework. You will need to add functionality to send a registration confirmation email. The team has come up with a set of requirements for the email format that should be delivered to users.
+
+ 
+
+The definitions and detailed requirements list follow. You will be graded on whether your application performs email-sending based on given use cases exactly as described in the requirements.
+
+ 
+
+Each user has the following structure:
+
+id: The unique ID of the user.
+email: The unique email of the user.
+username: The unique name of the user.
+password: The user's password.
+ 
+
+The REST service should implement the following functionalities:
+
+ 
+
+The POST /registrations endpoint should send a registration confirmation email upon successful user registration. The email should satisfy the following conditions:
+The email should be sent to the user's email address.
+The email should be sent from registration@hackerrank.com.
+The email should have admin@hackerrank.com in Blind Carbon Copy (BCC).
+The email should have the "Reply To" field set as admin@hackerrank.com.
+The email should have the subject "Welcome to HackerRank!"
+The email should be available in both HTML and TEXT versions.
+The text version of the email should contain "Hello {username}, thank you for registration in HackerRank!", where {username} is the name of the user.
+The HTML version of the email should have the following structure, where {username} is the name of the user:
+Hello {username},
+Thank you for registration in HackerRank!
+ 
+
+Your task is to complete the given project so that it passes all the test cases when running the provided rspec tests. The project by default supports the use of the SQLite database, but you can make use of any database to store the data by specifying the dependency in the config/database.yml file.
+
+ 
+
+To run migrations, please run the following command: RAILS_ENV=test rails db:migrate . Using bin/rails might result in permission errors, so use the rake command directly.
+
+ 
+
+Example request and response
+POST request to /registrations
+
+Request body:
+
+{
+  "username": "username",
+  "email": "username@email.com",
+  "password": "password"
+}
+The response code is 200, and the response body is:
+
+{
+  "id": 1,
+  "username": "username",
+  "email": "username@email.com"
+}
+Git Instructions
+Use the following commands to work with this project
+bin/bundle exec rails server --binding 0.0.0.0 --port 8000
+RAILS_ENV=test bin/rails db:migrate && RAILS_ENV=test bin/bundle exec rspec
+bin/bundle install
+
+## Read-only Files
+The following files are marked read-only. You cannot edit these files
+in the editor; however, it is possible from the terminal. You must not
+modify or delete these files because doing so results in a zero score.
+
+* .rspec
+* spec/rails_helper.rb
+* spec/requests/registrations_spec.rb
+* spec/spec_helper.rb
+
+require 'rails_helper'
+include ActiveJob::TestHelper
+
+describe 'RegistrationsController', type: :request do
+  describe 'POST /registrations' do
+    let(:username) { Faker::Name.name }
+    let(:email) { Faker::Internet.email }
+    let(:password) { Faker::Alphanumeric.alphanumeric(number: 10) }
+
+    let(:params) do
+      {
+        username: username,
+        email: email,
+        password: password
+      }
+    end
+
+    before { post '/registrations', params: params }
+    around { |test| perform_enqueued_jobs(&test) }
+
+    describe 'confirmation email' do
+      let(:sent_email) { ActionMailer::Base.deliveries[0] }
+
+      it 'should be sent out' do
+        expect(ActionMailer::Base.deliveries.count).to eq(1)
+        expect(sent_email).to be_present
+      end
+
+      it 'should be sent to the user email' do
+        expect(sent_email).to be_present
+        expect(sent_email.to).to eq([email])
+      end
+
+      it 'should be sent from "registration@hackerrank.com"' do
+        expect(sent_email).to be_present
+        expect(sent_email.from).to eq(['registration@hackerrank.com'])
+      end
+
+      it 'should be sent as BCC to "admin@hackerrank.com"' do
+        expect(sent_email).to be_present
+        expect(sent_email.bcc).to eq(['admin@hackerrank.com'])
+      end
+
+      it 'should have a "Reply To" field set as "admin@hacherrank.com"' do
+        expect(sent_email).to be_present
+        expect(sent_email.reply_to).to eq(['admin@hackerrank.com'])
+      end
+
+      it 'should have a subject "Welcome to HackerRank!"' do
+        expect(sent_email).to be_present
+        expect(sent_email.subject).to eq('Welcome to HackerRank!')
+      end
+
+      it 'should contain both HTML and TEXT versions' do
+        expect(sent_email).to be_present
+        expect(sent_email.parts.count).to eq(2)
+        expect(sent_email.html_part).to be_present
+        expect(sent_email.text_part).to be_present
+      end
+
+      it 'should contain correct salutation in HTML version' do
+        expect(sent_email).to be_present
+
+        email_body = (sent_email.html_part || sent_email).body.to_s
+
+        expect(email_body).to match(/Hello #{username}/)
+        expect(email_body).to match(/Thank you for registration in HackerRank!/)
+      end
+
+      it 'should contain correct salutation in TEXT version' do
+        expect(sent_email).to be_present
+        
+        email_body = (sent_email.text_part || sent_email).body.to_s
+
+        expect(email_body).to match(/Hello #{username}, thank you for registration in HackerRank!/)
+      end
+    end
+  end
+end
+
+
+

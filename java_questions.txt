@@ -1,0 +1,45 @@
+Technical interview by hashtag#CTS implementation for hashtag#AMEX -
+Duration - 90 mins
+
+Core Java Questions
+ 1. How does a HashMap handle collisions, and what’s the difference between HashMap and ConcurrentHashMap?
+ 2. Explain Garbage Collection what’s the deal with G1 GC vs. CMS?
+ 3. What’s the difference between fail-fast and fail-safe iterators?
+ 4. How would you implement an immutable class with mutable fields?
+ 5. What are soft references, weak references, and phantom references in Java, and why do they matter?
+
+ Multithreading and Concurrency
+ 1. What’s a race condition, and how would you prevent it?
+ 2. How does the Fork/Join framework work, and when would you use it?
+ 3. What are CountDownLatch and CyclicBarrier, and how do they differ?
+ 4. Implement a producer-consumer pattern using Java’s BlockingQueue.
+ 5. How would you debug a deadlock in a multithreaded application?
+
+ Spring Boot Questions
+ 1. What’s the role of Spring Boot Actuator, and why is it useful?
+ 2. How does Spring Boot’s auto-configuration work under the hood?
+ 3. Explain AOP (Aspect-Oriented Programming) with a real-world example.
+ 4. How do you secure a REST API with Spring Security and JWT?
+ 5. What’s the difference between @Component, @Service, @Repository, and @Controller?
+
+ API and Microservices
+ 1. How would you implement rate limiting in a microservices architecture?
+ 2. What’s the difference between asynchronous APIs and synchronous APIs?
+ 3. Explain the role of Eureka and Zuul in Spring Cloud.
+ 4. How do you ensure backward compatibility with API versioning?
+ 5. Design a retry mechanism for a failing API call in a distributed system.
+
+Advanced Topics
+ 1. How would you debug a memory leak in a production Java application?
+ 2. Explain CAP theorem and its relevance to distributed systems.
+ 3. How does event-driven architecture work with Kafka?
+ 4. Redis vs. Memcached: Which one do you pick for caching, and why?
+ 5. How do you monitor and troubleshoot issues in a microservices architecture?
+
+
+Key Topics to Master
+Java Fundamentals: HashMap internals, GC (G1 vs CMS), fail-fast vs fail-safe iterators.
+Multithreading: Thread synchronization, race conditions, Fork/Join, producer-consumer.
+Spring Boot & Microservices: Auto-config, JWT Security, Hystrix, Eureka, API versioning.
+System Design: Rate limiting, caching (Redis vs Memcached), Kafka, scalable APIs.
+Advanced Topics: CAP theorem, memory leaks, event-driven architecture, troubleshooting microservices

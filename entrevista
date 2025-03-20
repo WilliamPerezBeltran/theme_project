@@ -1,0 +1,38 @@
+"En mi último proyecto, trabajé con varios servicios de AWS para construir una infraestructura escalable y segura. 
+
+Utilicé EC2 para implementar instancias de servidores que manejaban las cargas de trabajo 
+más pesadas de la aplicación. 
+
+Configuramos RDS con PostgreSQL para gestionar la base de datos de manera eficiente,
+con réplicas en diferentes zonas de disponibilidad para mejorar la disponibilidad y la resiliencia.
+
+Para el almacenamiento de archivos estáticos, como imágenes y documentos, utilicé S3, 
+lo que nos permitió mantener un acceso rápido y seguro a los datos, 
+además de configurar políticas de ciclo de vida para eliminar archivos no utilizados automáticamente.
+
+El procesamiento de tareas en segundo plano se manejaba con Lambda, 
+que nos permitió ejecutar funciones sin servidor de manera eficiente, 
+como el procesamiento de imágenes que se subían al sistema. 
+
+Usamos SQS para coordinar y gestionar los mensajes entre los distintos microservicios, 
+lo que nos permitió desacoplar el sistema y mejorar la escalabilidad.
+
+Todo esto estaba dentro de una VPC, donde implementamos subredes privadas y 
+públicas para controlar el acceso entre los servicios, asegurando que las 
+instancias solo pudieran comunicarse de manera controlada y protegida."
+
+
+na VPC (Virtual Private Cloud) es un servicio de AWS que te permite crear una red privada 
+virtual dentro de la nube de Amazon. Es como si estuvieras creando tu propia red de 
+datos aislada dentro de la infraestructura de AWS, en la que puedes definir la topología de red, 
+los rangos de direcciones IP y configurar rutas y subredes.
+
+Las características clave de una VPC son:
+
+Subredes: Dentro de una VPC, puedes crear subredes para dividir tu red en diferentes segmentos. Estas subredes pueden ser privadas (sin acceso directo desde Internet) o públicas (con acceso a Internet).
+
+Rutas y Gateways: Puedes configurar tablas de enrutamiento para controlar el flujo de tráfico dentro de la VPC. También puedes configurar un Internet Gateway para que las instancias en las subredes públicas puedan acceder a Internet.
+
+Seguridad: AWS VPC permite crear grupos de seguridad (firewall a nivel de instancia) y Listas de Control de Acceso (ACL) para controlar el tráfico entrante y saliente a nivel de red.
+
+VPN: Puedes conectar tu VPC a tu infraestructura local a través de una VPN (Virtual Private Network), creando una extensión segura de tu red interna a la nube.

@@ -1,0 +1,28 @@
+# Autenticación y autorización
+	gem 'devise'
+	gem 'pundit'
+
+# Búsquedas avanzadas
+	gem 'searchkick'
+	gem 'elasticsearch'
+
+# Cacheo y tareas en segundo plano
+	gem 'redis'
+	gem 'sidekiq'
+
+# Auditoría y versionado
+	gem 'paper_trail'
+
+# Pruebas y datos simulados
+	gem 'rspec-rails'
+	gem 'factory_bot_rails'
+	gem 'faker'
+
+# Documentación y APIs
+	gem 'rswag'
+
+# Decoradores
+	gem 'draper'
+
+# Optimización de consultas
+	gem 'bullet'

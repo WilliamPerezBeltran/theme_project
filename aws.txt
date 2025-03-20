@@ -1,0 +1,23 @@
+Aquí tienes una explicación de algunos de los servicios básicos de AWS:
+
+EC2 (Elastic Compute Cloud): Es un servicio de cómputo escalable que permite ejecutar servidores virtuales, llamados instancias. Puedes elegir el tipo de máquina según tus necesidades de rendimiento y escalar hacia arriba o hacia abajo según sea necesario.
+
+S3 (Simple Storage Service): Ofrece almacenamiento de objetos altamente escalable y duradero. Puedes almacenar y recuperar cualquier cantidad de datos, como imágenes, archivos de video y backups, con una disponibilidad y seguridad confiables.
+
+Lambda: Permite ejecutar código en la nube sin necesidad de administrar servidores. Pagas solo por el tiempo de ejecución de tu código, lo que lo hace ideal para aplicaciones sin servidor.
+
+RDS (Relational Database Service): Es un servicio administrado de bases de datos relacionales. Admite varias bases de datos como MySQL, PostgreSQL, SQL Server y MariaDB, y maneja tareas como actualizaciones y copias de seguridad automáticamente.
+
+SQS (Simple Queue Service): Permite la comunicación entre componentes distribuidos y desacoplados mediante colas de mensajes. Es útil para manejar tareas en segundo plano y mejorar la escalabilidad y resiliencia de las aplicaciones.
+
+CloudFront: Es una red de entrega de contenido (CDN) que distribuye contenido de manera rápida a los usuarios globalmente, minimizando la latencia.
+
+IAM (Identity and Access Management): Permite gestionar usuarios y permisos para acceder a los servicios de AWS. Es fundamental para asegurar que solo las personas o servicios autorizados puedan acceder a tus recursos.
+
+Route 53: Es un servicio de DNS (Domain Name System) que permite dirigir el tráfico de Internet a tus recursos AWS, como instancias EC2 o buckets S3, y gestionar nombres de dominio.
+
+VPC (Virtual Private Cloud): Permite crear una red privada dentro de AWS, donde puedes definir subredes, configurar tablas de enrutamiento y establecer conexiones VPN, lo que te da control total sobre tu infraestructura de red.
+
+Elastic Beanstalk: Es un servicio de plataforma como servicio (PaaS) que facilita el despliegue y administración de aplicaciones web. Soporta múltiples lenguajes y frameworks, como Node.js, Python, Java y .NET.
+
+Estos son solo algunos ejemplos de los servicios más comunes en AWS, y existen muchos más que permiten crear infraestructuras más avanzadas según las necesidades de tus proyectos.

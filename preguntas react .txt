@@ -1,0 +1,59 @@
+🚀 React.js Technical Interview Questions 🚀
+
+
+✨ Beginner-Level Questions
+What is React, and what are its key features?
+Explain the difference between Real DOM and Virtual DOM.
+What are components in React?
+What is JSX, and why is it used in React?
+How do you create a functional component and a class component?
+What are props in React, and how are they used?
+What is state in React, and how is it different from props?
+How do you handle events in React?
+What are keys in React, and why are they important?
+Explain the component lifecycle methods in class components.
+
+
+✨ Intermediate-Level Questions
+What are React Hooks, and why were they introduced?
+Explain the purpose of useState, useEffect, and useContext.
+How do you lift state up in React?
+What is prop drilling, and how can you avoid it?
+Explain the difference between controlled and uncontrolled components.
+How do you optimize React performance using React.memo()?
+What is React Router, and how do you implement it?
+How do you handle forms in React?
+What is context API, and how is it used for state management?
+How do you fetch data in React using useEffect?
+
+
+
+✨ Advanced-Level Questions
+Explain the Virtual DOM diffing algorithm (reconciliation).
+What are Higher-Order Components (HOCs), and how do you use them?
+How does React Fiber improve rendering performance?
+What are error boundaries, and how do you implement them?
+How do you implement code splitting in React?
+Explain the difference between useMemo and useCallback.
+How do you test React components using Jest and React Testing Library?
+What is Redux, and how does it work with React?
+How do you implement server-side rendering (SSR) in React?
+What are React Portals, and when would you use them?
+
+
+✨ Practical Scenario-Based Questions
+How would you optimize a React app with a large list of items?
+How do you handle authentication in a React application?
+How would you debug a React application that is rendering slowly?
+How do you implement pagination in a React app?
+How would you handle global state management without Redux?
+How do you ensure SEO optimization in a React app?
+How would you implement a dark mode feature in React?
+How do you handle API rate limiting in a React app?
+How would you implement real-time updates using WebSockets in React?
+How do you handle internationalization (i18n) in a React app?
+
+
+
+💡 Pro Tip:
+Encourage candidates to explain their thought process and write clean, efficient code during the interview.
