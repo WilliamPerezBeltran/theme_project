@@ -1,0 +1,90 @@
+PART 1: 4-Step Roadmap (If Your Interview Is in 15 Days) 
+
+No need to spend hours and hours studying without a clear plan! This 4-step roadmap gives you a simple and structured way to learn system design in a short time. Even with just 15 days, you’ll build a pretty strong foundation and prepare effectively for your interview. 
+
+
+
+How to Approach a System Design Interview 
+15 Fundamental System Design Concepts 
+3-Step Framework for System Design Interviews 
+Real-World System Design Examples 
+
+
+PART 2: Understand System Design from Basics to Advanced 
+
+Learn system design step by step with clear explanations, real-world examples, and code snippets. Whether you're just starting or already have experience, this guide will help you build a strong understanding and boost your confidence. 
+
+
+
+System Design Topics Covered: 
+
+Introduction to System Design 
+Scalability and Performance 
+Latency and Throughput 
+Architectural Patterns 
+Availability and Availability Patterns 
+Replication 
+Consistency and Consistency Patterns 
+CAP Theorem 
+PACELC Theorem 
+Database and Storage 
+Relational Databases 
+Database Isolation Levels 
+Scaling Databases 
+Sharding and Partitioning 
+Non-Relational Databases 
+Choosing the Right Database 
+Caching 
+Asynchronous Processing 
+Message Queues (Kafka, RabbitMQ) 
+Monolithic vs. Microservices Architecture 
+Event-Driven Architecture 
+API Gateway and Backend for Frontend (BFF) 
+REST, GraphQL, and gRPC 
+Long Polling, WebSockets, Server-Sent Events (SSE) 
+Design Patterns 
+Resiliency 
+Designing for Resiliency 
+Load Balancers 
+Circuit Breakers 
+System Essentials 
+Consistent Hashing 
+Networking and Communication 
+Real-World Architectures & Engineering Blogs 
+
+
+PART 3: Ultimate Cheat Sheet 
+
+This quick-reference cheat sheet I made covers the most important system design concepts, making it easy to review key points right before your interview. 
+
+ 
+
+PART 4: 50 Detailed Q&A for LLD and HLD 
+
+50 carefully selected interview questions, covering both Low-Level Design (LLD) and High-Level Design (HLD). Each question comes with: 
+
+
+
+✔️ Clear explanations 
+
+✔️ Diagrams for better understanding 
+
+✔️ Real-world examples 
+
+✔️ Practical insights to simplify complex topics 
+
+
+
+PS: Use the SDE10 Coupon code to get a 10% discount (only for the next few users, so GO CHECK IT OUT FAST!!!)
+
+
+
+If you're struggling with system design interviews, then to be honest you’re not alone and with so many concepts to learn, it’s very easy to feel overwhelmed. 
+
+ 
+
+BUT here’s the good news, you don’t actually need to know everything to ace the interview. In fact, 80% of system design interviews focus on just 20% of the topics (I know, hard to believe). 
+
+ 
+
+My guide (which I am very proud of) zeroes in on those key areas, helping you focus your efforts on what really matters. With a clear roadmap, you'll be better prepared and increase your chances of success! 
