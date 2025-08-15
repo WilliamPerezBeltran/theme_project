@@ -38,3 +38,56 @@
 
 **Tip**: A good starting point is to study the source code of [CPython](https://github.com/python/cpython) and implement a minimal interpreter in C for a toy language.
 
+
+# Conocimientos técnicos para crear un lenguaje como Python 3.0
+
+1. **Diseño de Lenguajes de Programación**
+   - Principios de diseño de lenguajes (paradigmas: imperativo, orientado a objetos, funcional).
+   - Definición de sintaxis y semántica.
+   - Especificación formal (gramáticas, BNF/EBNF).
+
+2. **Compiladores e Intérpretes**
+   - Análisis léxico (tokenización).
+   - Análisis sintáctico (parsing).
+   - Árboles de sintaxis abstracta (AST).
+   - Análisis semántico.
+   - Generación de bytecode o traducción directa a máquina virtual.
+
+3. **Estructuras de Datos y Algoritmos**
+   - Listas, pilas, colas, tablas hash, árboles, grafos.
+   - Algoritmos de búsqueda y ordenamiento.
+   - Optimización de memoria y tiempo de ejecución.
+
+4. **Sistemas y Bajo Nivel**
+   - Lenguaje C y C++ (Python está implementado principalmente en C).
+   - Manejo de memoria (stack, heap, garbage collection).
+   - Control de punteros.
+   - Concurrencia y multithreading.
+
+5. **Diseño de Máquinas Virtuales**
+   - Arquitectura de una máquina virtual (como la Python Virtual Machine - PVM).
+   - Ejecución de bytecode.
+   - Gestión del ciclo de vida de objetos.
+
+6. **Manejo de Bibliotecas Estándar**
+   - Integración con módulos y librerías externas.
+   - APIs nativas (C API de Python).
+
+7. **Pruebas y Depuración**
+   - Creación de test para el compilador/intérprete.
+   - Depuración a bajo nivel.
+   - Validación de compatibilidad entre versiones.
+
+8. **Conocimientos de Sistemas Operativos**
+   - Manejo de procesos.
+   - Entrada/salida (I/O).
+   - Interacción con el sistema de archivos.
+
+9. **Control de Versiones y Colaboración**
+   - Uso avanzado de Git.
+   - Gestión de proyectos grandes en equipo.
+
+10. **Documentación y Comunidad**
+    - Documentar especificaciones y APIs.
+    - Mantener y evolucionar el lenguaje con retroalimentación de la comunidad.
+
